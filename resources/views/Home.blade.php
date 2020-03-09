@@ -3,17 +3,16 @@
 @section('page_content')
 
 <!-- Home Section -->
-<section class="home" style="background-image: url('{{ URL::asset('assets/img/home-bg.jpg') }}')">
+<section class="home" style="background-image: url('{{ URL::asset('assets/img/background_image.jpg') }}')">
 	
 	<!-- Banner -->
 	<div class="banner">
-			<h1>Alex Smith</h1>
+			<h1>Gaurav Ranpara</h1>
 		
 		<p class="cd-headline zoom">
 			<span>I am a</span>
 			<span class="cd-words-wrapper">
 				<b class="is-visible">Developer</b>
-				<b>Photographer</b>
 				<b>Designer</b>
 				<b>Freelancer</b>
 			</span>
@@ -49,12 +48,12 @@
 	</div>
 	
 	<!-- Language -->
-	<div class="lang">
+	<!-- <div class="lang">
         <ul>
             <li><a href="#" class="active">eng</a></li>
             <li><a href="#">rus</a></li>
         </ul>
-    </div>
+    </div> -->
 
 	<!-- Social -->
 	<div class="social">
@@ -62,14 +61,14 @@
         	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
         	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
         	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-
+        	<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
     	</ul>
 	</div>
 	
 	<!-- Copyright -->
-	<div class="copy">
+	<!-- <div class="copy">
     	<p>2019 © Malyarchuk. All Right Reserved.</p>
-	</div>
+	</div> -->
 </section>
 
 
@@ -87,20 +86,21 @@
 		<div class="row mt-100 mob-mt">
 			
 			<!-- Information Block -->
-			<div class="col-lg-8 col-sm-12">
+			<div class="col-lg-12 col-sm-12">
 				<div class="info box">
 					<div class="row">
 						<div class="col-lg-4 col-sm-4">
 							<div class="photo pt-10">
-								<img alt="" src="img/user-photo.jpg">		
+								<img alt="" src="{{ URL::asset('assets/img/user-photo.jpg') }}">		
 							</div>	
 						</div>
 						<div class="col-lg-8 col-sm-8">
-							<h4>Alex Smith</h4>
+							<h4>Gaurav Ranpara</h4>
 							<div class="loc">
-								<i class="fas fa-map-marked-alt"></i> New York, USA
+								<i class="fas fa-map-marked-alt"></i> Gujarat, India
 							</div>
-							<p>I'm 23 years old creative web designer, specializing in User Interface Design and Development. I build clean, appealing, and functional interfaces which comply with the latest web standards. Through my years of experience as a professional web/graphic designer I have acquired the skills and knowledge necessary to make your project a success!</p>
+							<p>I specialize in creating beautiful, usable, professional websites using best practice accessiblity and the latest W3C web standards guidelines, resulting in semantic and SEO friendly XHTML and CSS.All my sites are lovingly hand coded.</p>
+							<p>I have done work in Software development, mobile app creation, front-end/back-end web, database/server management. I've always sought out opportunities and challenges that are meaningful to me. As a developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world.</p>
 						</div>
 					</div>
 					<div class="btn-about">
@@ -110,7 +110,7 @@
 			</div>
 
 			<!-- Video Block -->
-			<div class="col-lg-4 col-sm-12">
+			<!-- <div class="col-lg-4 col-sm-12">
 				<div class="box">
 					<h4 class="text-center">Video Presentation</h4>
 					<div class="video">
@@ -120,7 +120,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<!-- Personal Info End -->
 		

@@ -23,12 +23,13 @@
 		<div class="loading">
 			<div class="circle"></div>
 			<div class="text-loading">
+				<span data-text-preloader="L" class="letters">L</span>
+				<span data-text-preloader="O" class="letters">O</span>
+				<span data-text-preloader="A" class="letters">A</span>
+				<span data-text-preloader="D" class="letters">D</span>
+				<span data-text-preloader="I" class="letters">I</span>
+				<span data-text-preloader="N" class="letters">N</span>
 				<span data-text-preloader="G" class="letters">G</span>
-				<span data-text-preloader="A" class="letters">A</span>
-				<span data-text-preloader="U" class="letters">U</span>
-				<span data-text-preloader="R" class="letters">R</span>
-				<span data-text-preloader="A" class="letters">A</span>
-				<span data-text-preloader="V" class="letters">V</span>
 			</div>
 		</div>	
 	</div>
