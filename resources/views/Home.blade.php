@@ -104,7 +104,7 @@
 						</div>
 					</div>
 					<div class="btn-about">
-						<a href="#" class="btn-st">Download CV</a>
+						<a href="{{ URL::asset('assets/document/CV.pdf') }}" class="btn-st" download="Gaurav CV.pdf">Download CV</a>
 					</div>
 				</div>
 			</div>
@@ -125,6 +125,7 @@
 		<!-- Personal Info End -->
 		
 		<!-- Service Row Start -->
+		<?php /*
 		<div class="row mt-100">
 			
 			<!-- Header Block -->
@@ -337,7 +338,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>*/ ?>
 		<!-- Price Row End -->
 	</div>
 </section>
