@@ -369,28 +369,28 @@
 						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
-								<h4>Web Design</h4>
-								<p><i class="far fa-calendar-alt"></i>2012 - 2014 | Сompany Inc</p>
+								<h4>Freelancer</h4>
+								<p><i class="far fa-calendar-alt"></i>Since May 2018 | Self Employed</p>
 							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+							<p>I am Start my career as freelancer and i am start my freelancing with technologies like PHP, MySQL, Android. I am passionate about my work and i worked within teams of creative freelancers to build websites and android applications.</p>
 						</div>
 
 						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
-								<h4>Fornt-End Developer</h4>
-								<p><i class="far fa-calendar-alt"></i>2014 - 2015 | Сompany Inc</p>
+								<h4>Web Developer</h4>
+								<p><i class="far fa-calendar-alt"></i>Since May 2018 | Impex Solutions</p>
 							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+							<p>I start job as a Web Developer along side with freelancing work. I work on so many latest technologies & ideas and i get good experience with this Job.</p>
 						</div>
 
 						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
-								<h4>Web Development</h4>
-								<p><i class="far fa-calendar-alt"></i>2015 - 2019 | Сompany Inc</p>
+								<h4>Cyber Security Intern</h4>
+								<p><i class="far fa-calendar-alt"></i>July 2018 - Sept. 2018 | Cyber Octet</p>
 							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+							<p>I Complete 3 Months intern in Cyber Security, Ethical Hacking, Web Application Security, Cyber Crime Investigation.</p>
 						</div>
 					</div>
 				</div>
@@ -411,28 +411,19 @@
 						<!-- Education Item -->
 						<div class="item">
 							<div class="main">
-								<h4>Phd</h4>
-								<p><i class="far fa-calendar-alt"></i>2011 - 2013 | Computer Science</p>
+								<h4>Graduation</h4>
+								<p><i class="far fa-calendar-alt"></i>Jun 2015 - Jun 2018 | Computer Application (B.C.A)</p>
 							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+							<p>I have completed my graduation from R.P.Bhalodiya College , Saurashtra University at Rajkot, Gujarat. I have completed my graduation with 8.0 CGPA.</p>
 						</div>
 
 						<!-- Education Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Post Graduation</h4>
-								<p><i class="far fa-calendar-alt"></i>2013 - 2016 | Computer Science</p>
+								<p><i class="far fa-calendar-alt"></i>Aug. 2018 - May 2020 | Computer Science (M.Sc. IT & CA)</p>
 							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
-						</div>
-
-						<!-- Education Item -->
-						<div class="item">
-							<div class="main">
-								<h4>Gradution</h4>
-								<p><i class="far fa-calendar-alt"></i>2016 - 2018 | Computer Science</p>
-							</div>
-							<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+							<p>I have started my Master in Computer Science with Information Technology & Computer Application at Atmiya University at Rajkot, Gujarat.</p>
 						</div>
 					</div>
 				</div>
@@ -452,7 +443,7 @@
 			</div>
 		</div>
 			
-		<div class="box skills">
+		<div class="box skills" style="margin-bottom: 1rem;">
 			<div class="row">
 				<div class="col-lg-6 col-sm-6">
 
@@ -460,18 +451,8 @@
 					<div class="skill-item">
 						<h4 class="progress-title">HTML5</h4>
 						<div class="progress">
-							<div class="progress-bar" style="width:98%">
-								<div class="progress-value">98%</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Skill Item -->
-					<div class="skill-item">
-						<h4 class="progress-title">CSS3</h4>
-						<div class="progress">
-							<div class="progress-bar" style="width:85%">
-								<div class="progress-value">85%</div>
+							<div class="progress-bar" style="width:95%">
+								<div class="progress-value">95%</div>
 							</div>
 						</div>
 					</div>
@@ -485,36 +466,93 @@
 							</div>
 						</div>
 					</div>
+
+
+					<!-- Skill Item -->
+					<div class="skill-item">
+						<h4 class="progress-title">CSS3</h4>
+						<div class="progress">
+							<div class="progress-bar" style="width:70%">
+								<div class="progress-value">70%</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="skill-item">
+						<h4 class="progress-title">Python</h4>
+						<div class="progress">
+							<div class="progress-bar" style="width:50%">
+								<div class="progress-value">50%</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="skill-item">
+						<h4 class="progress-title">GO Lang</h4>
+						<div class="progress">
+							<div class="progress-bar" style="width:50%">
+								<div class="progress-value">50%</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					
 				</div>
 
 				<div class="col-lg-6 col-sm-6">
 
 					<!-- Skill Item -->
 					<div class="skill-item">
-						<h4 class="progress-title">UI/UX designer</h4>
+						<h4 class="progress-title">PHP</h4>
 						<div class="progress">
-							<div class="progress-bar" style="width:77%">
-								<div class="progress-value">77%</div>
+							<div class="progress-bar" style="width:90%">
+								<div class="progress-value">90%</div>
 							</div>
 						</div>
 					</div>
 				
 					<!-- Skill Item -->
 					<div class="skill-item">
-						<h4 class="progress-title">Photoshop</h4>
+						<h4 class="progress-title">Laravel</h4>
 						<div class="progress">
-							<div class="progress-bar" style="width:85%">
-								<div class="progress-value">85%</div>
+							<div class="progress-bar" style="width:75%">
+								<div class="progress-value">75%</div>
 							</div>
 						</div>
 					</div>
+
+					<div class="skill-item">
+						<h4 class="progress-title">Codeigniter</h4>
+						<div class="progress">
+							<div class="progress-bar" style="width:65%">
+								<div class="progress-value">65%</div>
+							</div>
+						</div>
+					</div>
+
+
 
 					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">WordPress</h4>
 						<div class="progress">
-							<div class="progress-bar" style="width:88%">
-								<div class="progress-value">88%</div>
+							<div class="progress-bar" style="width:55%">
+								<div class="progress-value">55%</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="skill-item">
+						<h4 class="progress-title">Android</h4>
+						<div class="progress">
+							<div class="progress-bar" style="width:55%">
+								<div class="progress-value">55%</div>
 							</div>
 						</div>
 					</div>
@@ -524,6 +562,7 @@
 		<!-- Skills Row End -->
 		
 		<!-- Work Process Row Start -->
+		<?php /*
 		<div class="row mt-100">
 			
 			<!-- Header Block -->
@@ -582,7 +621,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> */ ?>
 		<!-- Work Process Row End -->
 	</div>
 </section>
