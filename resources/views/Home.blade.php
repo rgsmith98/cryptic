@@ -25,26 +25,26 @@
 			<div class="line line-top"></div>
 			<div class="line line-middle"></div>
 			<div class="line line-bottom"></div>
-			</div>
+		</div>
 		<div class="but-about menu-item">
 			<i class="fas fa-user-tie about-show" data-tooltip="about me" data-position="top"></i>
-			</div>
+		</div>
 		<div class="but-resume menu-item">
 			<i class="fas fa-address-book resume-show" data-tooltip="resume" data-position="right"></i>
-			</div>
-			<div class="but-portfolio menu-item">
-			<i class="fas fa-briefcase portfolio-show" data-tooltip="portfolio" data-position="right"></i>
-			</div>
-			<div class="but-blog menu-item">
+		</div>
+		<div class="but-portfolio menu-item">
+			<i class="fas fa-cogs service-show" data-tooltip="service" data-position="right"></i>
+		</div>
+		<div class="but-blog menu-item">
 			<i class="fas fa-receipt blog-show" data-tooltip="blog" data-position="left"></i>
-			</div>
+		</div>
 		<div class="but-contact menu-item">
 			<i class="fas fa-envelope contact-show" data-tooltip="contact" data-position="left"></i>
-			</div>
+		</div>
 	</div>
 	
 	<div class="page-wrap">
-			<div class="page-background"></div>
+		<div class="page-background"></div>
 	</div>
 	
 	<!-- Language -->
@@ -627,6 +627,56 @@
 </section>
 
 
+<section class="service section" data-simplebar>
+	<div class="container">
+		<div class="header-page mt-70">
+			<i class="fas fa-cogs"></i>
+			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left" style="float: left;margin-top: 1.5rem;"></i>
+			<h2>Services</h2>
+		</div>
+		<div class="row mt-100">
+			
+			<!-- Service Item -->
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
+					<i class="fas fa-desktop"></i>
+					<h4>Web Design</h4>
+					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+				</div>
+			</div>
+
+			<!-- Service Item -->
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
+					<i class="fas fa-cogs"></i>
+					<h4>Web Development</h4>
+					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+				</div>
+			</div>
+
+			<!-- Service Item -->
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
+					<i class="fas fa-mobile-alt"></i>
+					<h4>Responsive Design</h4>
+					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+				</div>
+			</div>
+
+			<!-- Service Item -->
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
+					<i class="fas fa-medkit"></i>
+					<h4>quick Support</h4>
+					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php
+/*
 <!-- Portfolio Section -->
 <section class="portfolio section" data-simplebar>
 	<div class="container">
@@ -763,6 +813,9 @@
 		<!-- Portfolio Item Row End -->
 	</div>
 </section>
+
+*/
+?>
 
 <!-- Blog Section -->
 <section class="blog section" data-simplebar>

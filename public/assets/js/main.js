@@ -37,8 +37,8 @@ $(document).ready(function() {
 	/* -----------------------------------
 	      2. Menu and Page Start
 	----------------------------------- */
-	var $menu_but = '.but-about, .but-resume, .but-portfolio, .but-blog, .but-contact';
-	var $menu_all = '.but-menu, .but-about, .but-resume, .but-portfolio, .but-blog, .but-contact';
+	var $menu_but = '.but-about, .but-resume, .but-portfolio, .but-blog, .but-contact, .but-service';
+	var $menu_all = '.but-menu, .but-about, .but-resume, .but-portfolio, .but-blog, .but-contact, .but-service';
 
 	$('.but-menu').on('click', function() {
 		$(this).toggleClass('menu-toggle');
@@ -57,6 +57,11 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$('.but-portfolio').toggleClass('portfolio-toggle');
 		}, 300);
+
+
+		setTimeout(function() {
+			$(".but-service").toggleClass('service-toggle');
+		})
 
 		// Blog Button
 		setTimeout(function() {
@@ -93,7 +98,7 @@ $(document).ready(function() {
 			
 		setTimeout(function() {
 			$('.page-background').removeClass('scale');
-			$('i.about-show, i.resume-show, i.portfolio-show, i.blog-show, i.contact-show').fadeIn("slow");
+			$('i.about-show, i.resume-show, i.portfolio-show, i.blog-show, i.contact-show, i.service-show').fadeIn("slow");
 		}, 400);
 			
 		setTimeout(function() {
@@ -179,6 +184,19 @@ $(document).ready(function() {
 			
 		setTimeout(function() {
 			$('.contact').fadeIn("slow");
+		}, 1000);
+	});
+
+
+
+	$('i.service-show').on('click', function(){
+			
+		setTimeout(function() {
+			$('i.service-show').fadeOut("fast");
+		}, 500);
+			
+		setTimeout(function() {
+			$('.service').fadeIn("slow");
 		}, 1000);
 	});
 	
