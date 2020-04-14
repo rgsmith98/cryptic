@@ -1,14 +1,8 @@
 @extends('layout')
-
 @section('page_content')
-
-<!-- Home Section -->
 <section class="home" style="background-image: url('{{ URL::asset('assets/img/background_image.jpg') }}')">
-	
-	<!-- Banner -->
 	<div class="banner">
-			<h1>Gaurav Ranpara</h1>
-		
+		<h1>Gaurav Ranpara</h1>
 		<p class="cd-headline zoom">
 			<span>I am a</span>
 			<span class="cd-words-wrapper">
@@ -18,8 +12,6 @@
 			</span>
 		</p>
 	</div>
-	
-	<!-- Menu -->
 	<div class="menu">
 		<div class="but-menu">
 			<div class="line line-top"></div>
@@ -42,50 +34,26 @@
 			<i class="fas fa-envelope contact-show" data-tooltip="contact" data-position="left"></i>
 		</div>
 	</div>
-	
 	<div class="page-wrap">
 		<div class="page-background"></div>
 	</div>
-	
-	<!-- Language -->
-	<!-- <div class="lang">
-        <ul>
-            <li><a href="#" class="active">eng</a></li>
-            <li><a href="#">rus</a></li>
-        </ul>
-    </div> -->
-
-	<!-- Social -->
 	<div class="social">
-    	<ul>
-        	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        	<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-    	</ul>
+		<ul>
+			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+		</ul>
 	</div>
-	
-	<!-- Copyright -->
-	<!-- <div class="copy">
-    	<p>2019 © Malyarchuk. All Right Reserved.</p>
-	</div> -->
 </section>
-
-
-
-<!-- About Section -->
 <section class="about section" data-simplebar>
 	<div class="container">
 		<div class="header-page mt-70">
 			<i class="fas fa-user-tie icon-page"></i>
-				<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
+			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
 			<h2>About Me</h2>
 		</div>
-		
-		<!-- Personal Info Start -->
 		<div class="row mt-100 mob-mt">
-			
-			<!-- Information Block -->
 			<div class="col-lg-12 col-sm-12">
 				<div class="info box">
 					<div class="row">
@@ -108,265 +76,23 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Video Block -->
-			<!-- <div class="col-lg-4 col-sm-12">
-				<div class="box">
-					<h4 class="text-center">Video Presentation</h4>
-					<div class="video">
-						<a class="video-play video-link" href="https://www.youtube.com/watch?v=QBEnXQqbKUI"></a>
-						<div class="video-bg">
-							<img alt="#" src="img/video-bg.jpg">
-						</div>
-					</div>
-				</div>
-			</div> -->
 		</div>
-		<!-- Personal Info End -->
-		
-		<!-- Service Row Start -->
-		<?php /*
-		<div class="row mt-100">
-			
-			<!-- Header Block -->
-			<div class="col-md-12">
-				<div class="header-box mb-50">
-					<h3>Services</h3>
-				</div>
-			</div>
-			
-			<!-- Service Item -->
-			<div class="col-lg-6 col-sm-6">
-				<div class="service box mb-40">
-					<i class="fas fa-desktop"></i>
-					<h4>Web Design</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-				</div>
-			</div>
-
-			<!-- Service Item -->
-			<div class="col-lg-6 col-sm-6">
-				<div class="service box mb-40">
-					<i class="fas fa-cogs"></i>
-					<h4>Web Development</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-				</div>
-			</div>
-
-			<!-- Service Item -->
-			<div class="col-lg-6 col-sm-6">
-				<div class="service box mb-40">
-					<i class="fas fa-mobile-alt"></i>
-					<h4>Responsive Design</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-				</div>
-			</div>
-
-			<!-- Service Item -->
-			<div class="col-lg-6 col-sm-6">
-				<div class="service box mb-40">
-					<i class="fas fa-medkit"></i>
-					<h4>quick Support</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-				</div>
-			</div>
-		</div>
-		<!-- Service Row End -->
-		
-		<!-- Testimonial Row Start -->
-		<div class="row testimonial mt-60">
-			
-			<!-- Header Block -->
-			<div class="col-md-12">
-				<div class="header-box mb-50">
-					<h3>Testimonials</h3>
-				</div>
-			</div>
-			
-			<div class="owl-carousel owl-theme">
-
-				<!-- Testimonail Item -->
-				<div class="testimonial-item">
-					<div class="media">
-						<img src="img/testimonials/testimonial-1.jpg" alt="">
-						<div class="content">
-							<h4>John Doe</h4>
-							<p>Web Development</p>
-						</div>
-					</div>
-					<div class="comment pt-30">
-						<p>
-							Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-							sem just metup consequat gestas facilisis eleifend posure tempor
-							metus sem just metup consequat gestas facilisis eleifend posures
-							temporureture.
-						</p>
-					</div>
-				</div>
-
-				<!-- Testimonail Item -->
-				<div class="testimonial-item">
-					<div class="media">
-						<img src="img/testimonials/testimonial-2.jpg" alt="">
-						<div class="content">
-							<h4>Alex Doe</h4>
-							<p>UI/UX Designer</p>
-						</div>
-					</div>
-					<div class="comment pt-30">
-						<p>
-							Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-							sem just metup consequat gestas facilisis eleifend posure tempor
-							metus sem just metup consequat gestas facilisis eleifend posures
-							temporureture.
-						</p>
-					</div>
-				</div>
-				
-				<!-- Testimonail Item -->
-				<div class="testimonial-item">
-					<div class="media">
-						<img src="img/testimonials/testimonial-3.jpg" alt="">
-						<div class="content">
-							<h4>David Doe</h4>
-							<p>UI/UX Designer</p>
-						</div>
-					</div>
-					<div class="comment pt-30">
-						<p>
-							Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-							sem just metup consequat gestas facilisis eleifend posure tempor
-							metus sem just metup consequat gestas facilisis eleifend posures
-							temporureture.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Testimonial Row End -->
-		
-		<!-- Price Row Start -->
-		<div class="row mt-100 mb-60">
-				
-			<!-- Header Block -->
-			<div class="col-md-12">
-				<div class="header-box mb-50">
-					<h3>Price</h3>
-				</div>
-			</div>
-			
-			<!-- Price Item -->
-			<div class="col-lg-4 col-sm-12">
-				<div class="price box">
-					<div class="head-price">
-						<i class="fa fa-user"></i>
-						<h4>Basic</h4>
-					</div>
-					<div class="body-price">
-						<div class="price-plan">
-							<span class="currency">$</span>
-							<span class="number">25</span>
-							<span class="period">month</span>
-						</div>
-						<div class="list-price">
-							<ul>
-								<li>Web Design</li>
-								<li>Web Development</li>
-								<li class="disable">Responsive Design</li>
-								<li class="disable">Game Development</li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer-price">
-						<a href="#" class="btn-st">Buy Now</a>
-					</div>
-				</div>
-			</div>
-
-			<!-- Price Item -->
-			<div class="col-lg-4 col-sm-12">
-				<div class="price box">
-					<div class="head-price">
-						<i class="fa fa-briefcase"></i>
-						<h4>Standard</h4>
-					</div>
-					<div class="body-price">
-						<div class="price-plan">
-							<span class="currency">$</span>
-							<span class="number">40</span>
-							<span class="period">month</span>
-						</div>
-						<div class="list-price">
-							<ul>
-								<li>Web Design</li>
-								<li>Web Development</li>
-								<li>Responsive Design</li>
-								<li class="disable">Game Development</li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer-price">
-						<a href="#" class="btn-st">Buy Now</a>
-					</div>
-				</div>
-			</div>
-
-			<!-- Price Item -->
-			<div class="col-lg-4 col-sm-12">
-				<div class="price box">
-					<div class="head-price">
-						<i class="fa fa-globe"></i>
-						<h4>Premium</h4>
-					</div>
-					<div class="body-price">
-						<div class="price-plan">
-							<span class="currency">$</span>
-							<span class="number">55</span>
-							<span class="period">month</span>
-						</div>
-						<div class="list-price">
-							<ul>
-								<li>Web Design</li>
-								<li>Web Development</li>
-								<li>Responsive Design</li>
-								<li>Game Development</li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer-price">
-						<a href="#" class="btn-st">Buy Now</a>
-					</div>
-				</div>
-			</div>
-		</div>*/ ?>
-		<!-- Price Row End -->
 	</div>
 </section>
-
-<!-- Resume Section -->
 <section class="resume section" data-simplebar>
 	<div class="container">
 		<div class="header-page mt-70">
 			<i class="fas fa-address-book icon-page"></i>
-				<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
+			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
 			<h2>Resume</h2>
 		</div>
-		
-		<!-- Experience & Education Row Start -->
 		<div class="row mt-100 mob-mt">
-			
-			<!-- Experience Column Start -->
 			<div class="col-lg-6 col-sm-12">
-				
-				<!-- Header Block -->
 				<div class="header-box mb-50">
 					<h3>Experience</h3>
 				</div>
-				
 				<div class="experience box">
 					<div class="bord-l">
-						
-						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Freelancer</h4>
@@ -374,8 +100,6 @@
 							</div>
 							<p>I am Start my career as freelancer and i am start my freelancing with technologies like PHP, MySQL, Android. I am passionate about my work and i worked within teams of creative freelancers to build websites and android applications.</p>
 						</div>
-
-						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Web Developer</h4>
@@ -383,8 +107,6 @@
 							</div>
 							<p>I start job as a Web Developer along side with freelancing work. I work on so many latest technologies & ideas and i get good experience with this Job.</p>
 						</div>
-
-						<!-- Experience Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Cyber Security Intern</h4>
@@ -395,20 +117,12 @@
 					</div>
 				</div>
 			</div>
-			<!-- Experience Column End -->
-					
-			<!-- Education Column Start -->
 			<div class="col-lg-6 col-sm-12">
-				
-				<!-- Header Block -->
 				<div class="header-box mb-50 mob-box-mt">
 					<h3>Education</h3>
 				</div>
-				
 				<div class="experience box">
 					<div class="bord-l">
-
-						<!-- Education Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Graduation</h4>
@@ -416,8 +130,6 @@
 							</div>
 							<p>I have completed my graduation from R.P.Bhalodiya College , Saurashtra University at Rajkot, Gujarat. I have completed my graduation with 8.0 CGPA.</p>
 						</div>
-
-						<!-- Education Item -->
 						<div class="item">
 							<div class="main">
 								<h4>Post Graduation</h4>
@@ -428,26 +140,17 @@
 					</div>
 				</div>
 			</div>
-			<!-- Education Column End -->
 		</div>
-		<!-- Experience & Education Row End -->
-		
-		<!-- Skills Row Start -->
 		<div class="row mt-100">
-			
-			<!-- Header Block -->
 			<div class="col-md-12">
 				<div class="header-box mb-50">
 					<h3>Skills</h3>
 				</div>
 			</div>
 		</div>
-			
 		<div class="box skills" style="margin-bottom: 1rem;">
 			<div class="row">
 				<div class="col-lg-6 col-sm-6">
-
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">HTML5</h4>
 						<div class="progress">
@@ -456,8 +159,6 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">JavaScript</h4>
 						<div class="progress">
@@ -466,9 +167,6 @@
 							</div>
 						</div>
 					</div>
-
-
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">CSS3</h4>
 						<div class="progress">
@@ -477,8 +175,6 @@
 							</div>
 						</div>
 					</div>
-
-
 					<div class="skill-item">
 						<h4 class="progress-title">Python</h4>
 						<div class="progress">
@@ -487,9 +183,6 @@
 							</div>
 						</div>
 					</div>
-
-
-
 					<div class="skill-item">
 						<h4 class="progress-title">GO Lang</h4>
 						<div class="progress">
@@ -498,15 +191,8 @@
 							</div>
 						</div>
 					</div>
-
-
-
-					
 				</div>
-
 				<div class="col-lg-6 col-sm-6">
-
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">PHP</h4>
 						<div class="progress">
@@ -515,8 +201,6 @@
 							</div>
 						</div>
 					</div>
-				
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">Laravel</h4>
 						<div class="progress">
@@ -525,7 +209,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="skill-item">
 						<h4 class="progress-title">Codeigniter</h4>
 						<div class="progress">
@@ -534,10 +217,6 @@
 							</div>
 						</div>
 					</div>
-
-
-
-					<!-- Skill Item -->
 					<div class="skill-item">
 						<h4 class="progress-title">WordPress</h4>
 						<div class="progress">
@@ -546,8 +225,6 @@
 							</div>
 						</div>
 					</div>
-
-
 					<div class="skill-item">
 						<h4 class="progress-title">Android</h4>
 						<div class="progress">
@@ -559,277 +236,56 @@
 				</div>
 			</div>
 		</div>
-		<!-- Skills Row End -->
-		
-		<!-- Work Process Row Start -->
-		<?php /*
-		<div class="row mt-100">
-			
-			<!-- Header Block -->
-			<div class="col-md-12">
-				<div class="header-box mb-50">
-					<h3>My Working Process</h3>
-				</div>
-			</div>
-		</div>
-			
-		<div class="box work-process mb-100">
-			<div class="row">
-				<div class="col-lg-4 col-sm-12 ltr">
-					
-            		<!-- Working Process Item-->
-                   	<div class="single-wp width-sm process-1">
-						<p class="wp-step">01</p>
-						<h4 class="wp-title">Discuss idea</h4>
-						<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-					</div>
-
-					<!-- Working Process Item-->
-					<div class="single-wp width-sm process-2">
-						<p class="wp-step">02</p>
-						<h4 class="wp-title">Creative concept</h4>
-						<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-					</div>
-				</div>
-			
-				<div class="col-lg-4 hidden-sm">
-					
-					<!-- Working Process Circle-->
-					<div class="wp-circle">
-						<h4>Working Process</h4>
-						<span class="dots top-l"></span>
-						<span class="dots bottom-l"></span>
-						<span class="dots top-r"></span>
-						<span class="dots bottom-r"></span>
-					</div>
-				</div>
-			
-				<div class="col-lg-4 col-sm-12 rtl">
-				
-					<!-- Working Process Item-->
-					<div class="single-wp width-sm process-3">
-						<p class="wp-step">03</p>
-						<h4 class="wp-title">Web concept</h4>
-						<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-					</div>
-
-					<!-- Working Process Item-->
-					<div class="single-wp width-sm process-4">
-						<p class="wp-step">04</p>
-						<h4 class="wp-title">Final concept</h4>
-						<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-					</div>
-				</div>
-			</div>
-		</div> */ ?>
-		<!-- Work Process Row End -->
 	</div>
 </section>
-
-
 <section class="service section" data-simplebar>
 	<div class="container">
 		<div class="header-page mt-70">
-			<i class="fas fa-cogs"></i>
 			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left" style="float: left;margin-top: 1.5rem;"></i>
 			<h2>Services</h2>
 		</div>
 		<div class="row mt-100">
-			
-			<!-- Service Item -->
 			<div class="col-lg-6 col-sm-6">
 				<div class="service box mb-40">
-					<i class="fas fa-desktop"></i>
-					<h4>Web Design</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+					<h4>Laravel Develpment</h4>
 				</div>
 			</div>
-
-			<!-- Service Item -->
 			<div class="col-lg-6 col-sm-6">
 				<div class="service box mb-40">
-					<i class="fas fa-cogs"></i>
-					<h4>Web Development</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+					<h4>Wordpress Development</h4>
 				</div>
 			</div>
-
-			<!-- Service Item -->
 			<div class="col-lg-6 col-sm-6">
 				<div class="service box mb-40">
-					<i class="fas fa-mobile-alt"></i>
+					<h4>eCommerce Development</h4>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
 					<h4>Responsive Design</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
 				</div>
 			</div>
-
-			<!-- Service Item -->
 			<div class="col-lg-6 col-sm-6">
 				<div class="service box mb-40">
-					<i class="fas fa-medkit"></i>
-					<h4>quick Support</h4>
-					<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+					<h4>Android Development</h4>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-6">
+				<div class="service box mb-40">
+					<h4>Python Development</h4>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<?php
-/*
-<!-- Portfolio Section -->
-<section class="portfolio section" data-simplebar>
-	<div class="container">
-		<div class="header-page mt-70">
-			<i class="fas fa-briefcase icon-page"></i>
-				<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
-			<h2>Portfolio</h2>
-		</div>
-		
-		<!-- Portfolio Filter Row Start -->
-		<div class="row mt-100 mob-mt">
-			<div class="col-lg-12 col-sm-12 portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">All</li>
-					<li data-filter=".brand">Brand</li>
-					<li data-filter=".design">Design</li>
-					<li data-filter=".graphic">Graphic</li>
-				</ul>
-			</div>
-		</div>
-		<!-- Portfolio Filter Row End -->
-		
-		<!-- Portfolio Item Row Start -->
-		<div class="row portfolio-items mt-100 mb-100">
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 graphic">
-				<figure>
-					<img alt="" src="img/portfolio/img-1.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Graphic</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-1.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 design">
-				<figure>
-					<img alt="" src="img/portfolio/img-2.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Design</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-2.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 brand">
-				<figure>
-					<img alt="" src="img/portfolio/img-3.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Graphic</p><i class="fas fa-video"></i>
-						<a class="video-link" href="https://www.youtube.com/watch?v=k_okcNVZqqI"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 graphic">
-				<figure>
-					<img alt="" src="img/portfolio/img-4.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Design</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-4.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 design">
-				<figure>
-					<img alt="" src="img/portfolio/img-5.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Design</p><i class="fas fa-video"></i>
-						<a class="video-link" href="https://www.youtube.com/watch?v=k_okcNVZqqI"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 brand">
-				<figure>
-					<img alt="" src="img/portfolio/img-6.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Brand</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-6.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 graphic">
-				<figure>
-					<img alt="" src="img/portfolio/img-7.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Brand</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-7.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 design">
-				<figure>
-					<img alt="" src="img/portfolio/img-8.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Brand</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-8.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<!-- Portfolio Item -->
-			<div class="item col-lg-4 col-sm-6 brand">
-				<figure>
-					<img alt="" src="img/portfolio/img-9.jpg">
-					<figcaption>
-						<h3>Project Name</h3>
-						<p>Graphic</p><i class="fas fa-image"></i>
-						<a class="image-link" href="img/portfolio/img-9.jpg"></a>
-					</figcaption>
-				</figure>
-			</div>
-		</div>
-		<!-- Portfolio Item Row End -->
-	</div>
-</section>
-
-*/
-?>
-
-<!-- Blog Section -->
 <section class="blog section" data-simplebar>
 	<div class="container">
 		<div class="header-page mt-70">
 			<i class="fas fa-receipt icon-page"></i>
-				<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
+			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
 			<h2>Blog</h2>
 		</div>
-		
-		<!-- Blog Row Start -->
 		<div class="row mt-100 mb-50 mob-mt">
-				
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -847,8 +303,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -866,8 +320,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -885,8 +337,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -904,8 +354,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -923,8 +371,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Blog Item -->
 			<div class="col-lg-4 col-sm-6">
 				<div class="blog-item">
 					<div class="thumbnail">
@@ -943,26 +389,18 @@
 				</div>
 			</div>
 		</div>
-		<!--Blog Row End-->
 	</div>
 </section>
-
-<!-- Contact Section -->
 <section class="contact section" data-simplebar>
 	<div class="container">
 		<div class="header-page mt-70">
 			<i class="fas fa-envelope icon-page"></i>
-				<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
+			<i class="far fa-times-circle close-page" data-tooltip="close page" data-position="left"></i>
 			<h2>Contact</h2>
 		</div>
 		<div class="row mt-100 mob-mt">
-			
 			<div class="col-lg-8 col-sm-12">
-				
-				<!--Form Start-->
 				<form class="form-wrap validate-form">
-					
-					<!--Full name-->
 					<div class="validate-input">
 						<input id="name" class="input" type="text" name="name" placeholder="Full name">
 						<span class="focus-input"></span>
@@ -970,8 +408,6 @@
 							<i class="fas fa-user"></i>
 						</label>
 					</div>
-
-					<!--Email-->
 					<div class="validate-input">
 						<input id="email" class="input" type="text" name="email" placeholder="example@example.com">
 						<span class="focus-input"></span>
@@ -979,8 +415,6 @@
 							<i class="fas fa-envelope"></i>
 						</label>
 					</div>
-
-					<!--Massage-->
 					<div class="validate-input">
 						<textarea id="message" class="input" name="message"  placeholder="Your comments..."></textarea>
 						<span class="focus-input"></span>
@@ -992,48 +426,35 @@
 						<a href="#" class="btn-st">Talk to A Human</a>
 					</div>
 				</form>
-				<!--Form End-->
 			</div>
-			
 			<div class="col-lg-4 col-sm-12">
-				
-				<!--Contact Info Row Start-->
 				<div class="box">
 					<div class="row">
-					
-							<!--Contact Info Item-->
 						<div class="col-lg-12">
-                    		<div class="info-item">
-                       			<span class="icon"><i class="fas fa-paper-plane"></i></span>
-                       			<h4>Email:</h4>
+							<div class="info-item">
+								<span class="icon"><i class="fas fa-paper-plane"></i></span>
+								<h4>Email:</h4>
 								<p><a href="mailto:example@example.com">example@example.com</a></p>
-                    		</div>
+							</div>
 						</div>
-
-                   		 <!--Contact Info Item-->
-    					<div class="col-lg-12">
-                    		<div class="info-item">
-                       		<span class="icon"><i class="fas fa-map-marker-alt"></i></span>
-                       			<h4>Addres</h4>
+						<div class="col-lg-12">
+							<div class="info-item">
+								<span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+								<h4>Addres</h4>
 								<p>123 Lorem Ipsum, USA</p>
-                    		</div>
+							</div>
 						</div>
-
-                   		 <!--Contact Info Item-->
-        				<div class="col-lg-12">
-                   			<div class="info-item">
-                       			<span class="icon"><i class="fas fa-phone"></i></span>
-                       			<h4>Phone</h4>
+						<div class="col-lg-12">
+							<div class="info-item">
+								<span class="icon"><i class="fas fa-phone"></i></span>
+								<h4>Phone</h4>
 								<p>(+1) 123 456 7890</p>
-                   			</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<!--Contact Info Row End-->
 			</div>
 		</div>
-		
-		<!--Google Map Start-->
 		<div class="google-map box mt-100 mb-100">
 			<div class="row">
 				<div class="col-lg-12">
@@ -1041,9 +462,6 @@
 				</div>
 			</div>
 		</div>
-		<!--Google Map End-->
-		
 	</div>
 </section>
-
 @stop
